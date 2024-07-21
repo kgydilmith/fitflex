@@ -1,0 +1,88 @@
+.plans-container {
+  margin-top: -4rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+  background: #414066;
+}
+
+.pragrams-header {
+  gap: 2rem;
+  background: #414066;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  background: gray;
+  color: white;
+  gap: 2rem;
+  padding: 1.5rem;
+  width: 15rem;
+}
+
+.plan > svg {
+  fill: orange;
+  width: 2rem;
+  height: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.feature > img {
+  width: 1rem;
+}
+.plan:nth-child(2)>svg{
+    fill: white;
+}
+
+.left-j{
+  display: flex;
+ padding: 0 2rem;
+ gap: 5rem;
+color: white;
+font-size: 2rem;
+font-weight: bold;
+text-transform: uppercase; 
+position: relative; 
+}
+
+.left-j>hr{
+ position: absolute;
+ width: 10.5rem;
+ border: 2px solid orange;
+ border-radius: 20%;
+ margin: -10px 0;
+}
+
+.left-j>div{
+ display: flex;
+ gap: 1rem;
+}
+
+
+@media(max-width:768px){
+  .plans{
+    flex-direction: column;
+  }
+  
+}
